@@ -1,0 +1,28 @@
+# OK 12-08-2024, Need to use the below within quotes as there is space in the "Gemeni OK programs" folder name
+#C:\Users\k_ash>streamlit run "d:/Documents/Gemeni OK programs/streamlitcode.py"
+import streamlit as st
+import pandas as pd
+
+# Set the title of the app
+st.title("My First Streamlit App")
+
+# Display text
+st.write("This is a simple Streamlit app.")
+
+# Create a dataframe
+df = pd.DataFrame({
+    'x': [1, 2, 3, 4, 5],
+    'y': [10, 20, 30, 40, 50]
+})
+
+# Display the dataframe
+st.write(df)
+
+# Create a line chart
+st.line_chart(df)
+
+# Get user input
+user_input = st.text_input("Enter your name:")
+
+# Display the user input
+st.write("Hello, ", user_input)
