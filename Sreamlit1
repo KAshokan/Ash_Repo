@@ -1,5 +1,3 @@
-# OK 12-08-2024, Need to use the below within quotes as there is space in the "Gemeni OK programs" folder name
-#C:\Users\k_ash>streamlit run "d:/Documents/Gemeni OK programs/streamlitcode.py"
 import streamlit as st
 import pandas as pd
 
